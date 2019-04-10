@@ -1,0 +1,137 @@
+/*
+* Style css
+*/
+
+* {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 200;
+}
+
+body,
+html {
+    margin: 0px 0;
+    padding: 0px;
+    width: 100%;
+}
+
+body {
+    background-color: #e0eae0;
+}
+
+h1 {
+    font-size: 1.5em;
+    margin: 0 0 44px 0;
+    padding: 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #788078;
+    letter-spacing: 0.25em;
+}
+
+#container {
+    margin: 0 auto;
+    padding: 60px 32px 40px;
+}
+
+input[type=radio] {
+    border: 0px;
+    height: 1.5em;
+    width: 1.5em;
+    color: #768276;
+}
+
+.parameters label {
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    padding-right: 10px;
+    color: #768276;
+}
+
+.parameters {
+    display: table;
+    margin: 0px auto;
+    height: auto;
+    padding: 1em;
+}
+
+#id-under-p {
+    color: #768276;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.search-container {
+    margin: 1em auto;
+    width: 100%;
+    display: flex;
+    position: relative;
+}
+
+.search-container>input[type=text],
+.search-container>button {
+    display: block;
+    padding: 1em;
+}
+
+.search-container>input[type=text] {
+    flex: 1;
+    border: 0.2em;
+    color: #2ca05e;
+}
+
+.search-container>button {
+    background-color: #2ca05e;
+    color: #fff;
+    border: none;
+}
+
+.accordion {
+    background-color: #ad2828;
+    color: #fff;
+    padding: 1em;
+    width: 100%;
+    text-align: center;
+    border: none;
+    margin: 10px auto 0px auto;
+    font-size: 1em;
+    display: block;
+}
+
+.panel {
+    color: #fff;
+    padding: 1em;
+    display: none;
+    overflow: hidden;
+    background-color: #b46666;
+}
+
+footer {
+    background-color: #b1dab1;
+    position: relative;
+    height: 2em;
+    bottom: 0;
+    width: 100%;
+    padding: 30px 0;
+    clear: both;
+}
+
+.footer-text {
+    text-align: center;
+    color: #768276;
+}
+
+@media (min-width: 768px) {
+    #container {
+        width: 95%;
+    }
+    .search-container {
+        width: 40%;
+    }
+}
+
+@media (min-width: 1200px) {
+    #container {
+        width: 70%;
+    }
+}

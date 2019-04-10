@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Zanieczyszczenie powietrza</title>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+
+<body>
+    <div id="container">
+        <h1>The 10 most polluted cities for bc parameter in...</h1>
+
+        <div class="search-container">
+
+            <input placeholder="Type country name" type="text" name="country" id="search-input" list="search-list" />
+            <datalist id="search-list">
+                    <option value="Poland"/>
+                    <option  value="Germany"/>
+                    <option  value="Spain"/>
+                    <option  value="France"/>
+            </datalist>
+            <button type="button" id="search-button">search</button>
+
+        </div>
+        <p id="id-under-p">or change parameter :</p>
+        <div class="parameters">
+
+            <input type="radio" name="radio" value="bc" checked="checked" id="bc" />
+            <label for="bc">bc </label>
+
+            <input type="radio" name="radio" value="co" id="co" />
+            <label for="co">co</label>
+
+            <input type="radio" name="radio" value="no2" id="no2" />
+            <label for="no2">no2 </label>
+
+            <input type="radio" name="radio" value="o3" id="o3" />
+            <label for="o3">o3</label>
+
+            <input type="radio" name="radio" value="pm10" id="pm10" />
+            <label for="pm10">pm10</label>
+
+            <input type="radio" name="radio" value="pm25" id="pm25" />
+            <label for="pm25">pm25</label>
+
+            <input type="radio" name="radio" value="so2" id="so2" />
+            <label for="so2">so2</label>
+
+        </div>
+        <div id="accordionId">
+
+        </div>
+    </div>
+</body>
+<footer>
+    <div class="footer-text">
+        Karina Nowrot
+    </div>
+</footer>
+
+</html>
